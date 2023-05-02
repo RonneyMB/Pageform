@@ -4,31 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles_login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
-    <title>Crear New Password
+    <title>Iniciar sesion
     </title>
 </head>
 <body>
     <div class="entrale">
         <div class="contenedor-de-formulario">
             <img src="Assetts_log/Logos/logo_yard_sale.svg" alt="logo" class="logo">
-            <h1 class="title">Crear una nueva Password</h1>
-            <p class="subtitle">Ingrese el password para el nuevo usuario</p>
             
             <form action="/" class="form">
 
-                <label for="password" class="new-pass">Password</label>
-                <input type="password" id="password" placeholder="Ingrese su password" class="input input-style"> 
+                <input type="text" id="email" placeholder="Email or Number" class="input input-style"> 
 
-                <label for="confirm-password" class="new-pass">Repita la Password</label>
-                <input type="password" id="confirm-password" placeholder="Ingrese su password" class="input input-style"> 
+                <input type="password" id="password" placeholder="Password" class="input input-style"> 
 
-                <input type="submit" value="Crear" class="primary-button boton">
-                
+                <input type="submit" value="Iniciar sesion" class="primary-button boton">
+                <a href="./password.html">Olvide mi Password</a>
+
              </form>
+             
+             <div class="registerbox"><button class="secondary-button signup-button">Registrarse</button></div>
         </div>
     </div>
 </body>
