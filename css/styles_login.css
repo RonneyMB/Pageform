@@ -28,7 +28,8 @@ body {
 .logo {
     width: 150px;
     margin-bottom: 50px;
-    justify-self: center;;
+    justify-self: center;
+    display: none;
 }
 .title  {
     font-size: var(--lg);
@@ -97,6 +98,10 @@ body {
 }
 @media (max-width: 640px){
     
+    .logo {
+        display: block;
+    }
+
     .secondary-button {
         width: 300px;
         position: absolute;
