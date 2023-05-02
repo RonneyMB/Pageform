@@ -1,0 +1,1 @@
+Si tengo 2 label anidados, entonces deben llevar los mismos nombres de id y class.
