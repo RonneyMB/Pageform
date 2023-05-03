@@ -1,3 +1,5 @@
 Si tengo 2 label anidados, entonces deben llevar los mismos nombres de id y class.
 @media sirve para establecer el maximo y minimo del responsive
 de la app. 
+ el display: block dice donde se va a mostrar el objeto seleccionado
+ 
